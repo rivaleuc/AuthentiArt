@@ -11,6 +11,7 @@ equivalence). Authenticated items are indexed by a normalized (title, creator) k
 The verb is **"authenticate provenance → queryable registry"** — the value is the trustworthy read,
 gated by a consensus write over fetched evidence.
 
+- **Live demo:** https://authentiart.pages.dev
 - **Contract (Bradbury, chain 4221):** `0x30C40e41832D979a7CB4C595E146Eb889fF6f7aB`
 - **Deployed from:** `rivale` (`0xc388…51A44`)
 - **Explorer:** https://explorer-bradbury.genlayer.com/contract/0x30C40e41832D979a7CB4C595E146Eb889fF6f7aB
