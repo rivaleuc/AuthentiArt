@@ -2,6 +2,8 @@
 
 **Provenance authentication + a public registry, by GenLayer validator consensus.**
 
+[![GenLayer](https://img.shields.io/badge/GenLayer-Bradbury-ff4d6d)](https://genlayer.com) [![chainId](https://img.shields.io/badge/chainId-4221-4dd0e1)](https://docs.genlayer.com) [![contract](https://img.shields.io/badge/contract-Python%20GenVM-8a63d2)](https://docs.genlayer.com) [![tests](https://img.shields.io/badge/tests-6%2F6%20passing-3fb950)](tests) [![frontend](https://img.shields.io/badge/frontend-React%20%2B%20Vite%20%2B%20genlayer--js-22a6f2)](app) [![live](https://img.shields.io/badge/live-authentiart.pages.dev-f59e0b)](https://authentiart.pages.dev) [![License](https://img.shields.io/badge/license-MIT-2dd4bf)](LICENSE)
+
 Submit an item (artwork / collectible) with a provenance link. `authenticate` has every validator
 independently fetch the provenance evidence and judge it **authentic / forgery / inconclusive** with a
 confidence; the result is accepted only when validators agree on the **verdict** (comparative

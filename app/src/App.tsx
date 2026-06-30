@@ -41,7 +41,7 @@ export default function App() {
       <Toaster theme="dark" position="top-right" richColors />
       <div className="pointer-events-none fixed inset-0 -z-10 bg-[radial-gradient(900px_circle_at_50%_-10%,#e0b34118,transparent_55%)]" />
       <header className="border-b border-border"><div className="mx-auto flex h-16 max-w-6xl items-center gap-2.5 px-5">
-        <BadgeCheck className="h-5 w-5 text-primary" /><span className="text-[15px] font-bold tracking-tight" style={{ fontFamily: 'Georgia, serif' }}>AuthentiArt</span>
+        <BadgeCheck className="h-5 w-5 text-primary" /><span className="text-[15px] font-bold tracking-tight" style={{ fontFamily: 'Playfair Display, Georgia, serif' }}>AuthentiArt</span>
         <div className="ml-4 hidden font-mono text-xs text-muted md:block"><b className="text-foreground"><NumberTicker value={stats.total_items} /></b> pieces · <b className="text-true"><NumberTicker value={stats.authentic} /></b> authentic</div>
         <div className="ml-auto flex items-center gap-1.5 rounded-full border border-border bg-card/60 p-1.5">
           <Search className="ml-1.5 h-4 w-4 text-muted" /><input value={qt} onChange={(e) => setQt(e.target.value)} placeholder="title" className="w-20 bg-transparent text-sm outline-none" /><input value={qc} onChange={(e) => setQc(e.target.value)} placeholder="creator" className="w-20 bg-transparent text-sm outline-none" /><Button size="sm" onClick={lookup}><Search className="h-4 w-4" /></Button>
@@ -79,7 +79,7 @@ export default function App() {
                     </div>
                     {/* placard */}
                     <div className="rounded-sm bg-[#0c0a07]/80 px-2 py-1.5 text-center">
-                      <div className="truncate text-sm font-semibold" style={{ fontFamily: 'Georgia, serif' }}>{it.title}</div>
+                      <div className="truncate text-sm font-semibold" style={{ fontFamily: 'Playfair Display, Georgia, serif' }}>{it.title}</div>
                       <div className="truncate text-[11px] italic text-muted">{it.creator}</div>
                     </div>
                   </div>
